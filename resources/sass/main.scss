@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;    //body預設高度0    height假設300px
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar{
+    >form{
+        >a{
+            height: 50px;
+            width: 150px;
+            margin-right: 5vw;
+            padding-top: 10px;
+        }
+    }
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+    >div{
+        border-style: ridge;
+        width: 40vw;
+        height: 42vw;
+        text-align: center;
+        margin:0px,auto;
+        >div{
+            border-style: ridge;
+        }
+        >.userbox1{
+            height: 30vw;
+        }
+        >.userbox2{
+            height: 12vw;
+        }
+    }
+}
+
+footer{
+    background-color: rgba(187, 187, 187, 0.753);
+    >.container{
+    }
+}
