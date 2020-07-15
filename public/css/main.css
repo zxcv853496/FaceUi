@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 
 .contain > div {
@@ -38,7 +39,35 @@ body {
   height: 12vw;
 }
 
+.contain > .form {
+  height: 39vw;
+  padding-top: 4vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  background-color: rgba(238, 238, 238, 0.74);
+  border-radius: 20px;
+}
+
+.contain > .form div {
+  margin-top: 2vw;
+}
+
+.contain > .form div label {
+  margin-top: 2vw;
+}
+
+.contain > .form span label {
+  margin-top: 2vw;
+  margin-bottom: 0;
+}
+
+.contain > .form button {
+  margin-top: 7vw;
+  height: 5vw;
+  width: 100%;
+}
+
 footer {
-  background-color: rgba(187, 187, 187, 0.753);
+  background-color: #ffd5d5;
 }
 

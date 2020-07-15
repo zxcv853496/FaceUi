@@ -13,6 +13,7 @@
     @yield('content')
     @include('layout.footer')
     <script src="{{ asset('jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>    
+    <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script> 
+    <script src="{{ asset('js/main.js')}}"></script>   
 </body>
 </html>
